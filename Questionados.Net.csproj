@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Questionados\**" />
+    <Content Remove="Questionados\**" />
+    <EmbeddedResource Remove="Questionados\**" />
+    <None Remove="Questionados\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
   </ItemGroup>
 
